@@ -41,7 +41,7 @@ day = int(input("And the day? "))
 
 current_month = datetime.today().month
 current_day = datetime.today().day
-current_month_name = month_name[todaymonth]
+current_month_name = month_name[current_month]
 
 if month == "September" or month == "October" or month == "November":
     season = "fall"
