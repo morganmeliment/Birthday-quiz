@@ -68,7 +68,7 @@ if month == current_month_name and day == current_day:
 elif month == "October" and day == 31:
     print("You were born on Halloween!")
 else:
-    print("{0}, you are a {1} baby of the {2}".format(name, season, time_period))
+    print("{0}, you are a {1} baby of the {2}.".format(name, season, time_period))
 
 
 
