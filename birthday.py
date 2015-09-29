@@ -43,9 +43,30 @@ current_month = datetime.today().month
 current_day = datetime.today().day
 current_month_name = month_name[todaymonth]
 
+if month == "September" or month == "October" or month == "November":
+    season = "fall"
+elif month == "December" or month == "January" or month == "February":
+    season = "winter"
+elif month == "March" or month == "April" or month == "May":
+    season = "spring"
+elif month == "June" or month == "July" or month == "August":
+    season = "summer"
+else: 
+    season = "fall"
+    
+if year >= 2000:
+    time_period = "two thousands"
+elif year >= 1990 and year < 2000:
+    time_period = "nineties"
+elif year >= 1980 and year < 1990:
+    time_period = "eighties"
+elif year < 1980:
+    time_period = "stone age"
+
 if month == current_month_name and day == current_day:
     print("Happy birthday!")
-elif 
+else:
+    if season
 
 
 
