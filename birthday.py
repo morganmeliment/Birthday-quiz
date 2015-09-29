@@ -65,8 +65,10 @@ elif year < 1980:
 
 if month == current_month_name and day == current_day:
     print("Happy birthday!")
+elif month == "October" and day == 31:
+    print("You were born on Halloween!")
 else:
-    if season
+    print("{0}, you are a {1} baby of the {2}".format(name, season, time_period))
 
 
 
